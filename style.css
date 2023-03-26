@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: silver;
+    font-family: helvetica;
+}
+h3{
+    color:silver;
+    position: absolute;
+    top: 4vh;
+    left: 4vw;
+}
+.nav{
+    position: absolute;
+    top: 4vh;
+    right: 6vw;
+}
+.nav a{
+    text-decoration: none;
+    color: silver;
+    padding: 20px;
+}
+.nav i{
+    margin-left: 20px;
+}
+h1{
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+
+    color: silver;
+    font-size: 11vmax;
+    width: 4vmin;
+    font-weight: 100;
+
+}
+#one{
+    width: 15vw;
+    position: absolute;
+    bottom: 43vh;
+    right: 32vw;
+    font-size: 2.7vmin;
+}
+#two{
+    position: absolute;
+    bottom: 23vh;
+    left: 6vw;
+    font-size: 3vmin;
+    width: 40vw;
+}
+button{
+    position: absolute;
+    bottom: 16vh;
+    left: 6vw;
+    padding: 10px 40px 10px 20px;
+    border-radius: 100px;
+    font-size: 14px;
+    border: none;
+}
+.content{
+    position: absolute;
+    bottom: 20vh;
+    right: 10vw;
+}
+h4{
+    opacity: .6;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid silver;
+}
+
+ul{
+    list-style: none;
+    font-size: 14px;
+}
+li{
+    margin: 10px 0;
+
+}
